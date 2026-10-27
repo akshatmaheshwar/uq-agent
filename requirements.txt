@@ -1,0 +1,10 @@
+# Server (vectorDBClicksIntegrated.py)
+playwright>=1.40
+chromadb>=0.5
+sentence-transformers>=2.7
+fuzzywuzzy>=0.18
+python-Levenshtein>=0.25
+
+# Only needed for the scripts in experiments/
+requests>=2.31
+rapidfuzz>=3.0

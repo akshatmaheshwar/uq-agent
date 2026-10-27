@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated at runtime: the vector database is rebuilt every time the server starts
+chroma_db/
+
+# Node / build output
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
